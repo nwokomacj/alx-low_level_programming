@@ -1,18 +1,19 @@
-#include "unistd.h"
+#include "main.h"
 
 /**
- * main - prints aphabets in lowercase
- * followed by a new line
- * Return: Always 0 (success)
+ * print_alphabet - Entry point
+ * Description: a function to print alphabet
+ * Return: void
  */
 
 void print_alphabet(void)
 {
-	char c;
+	char letters = 'a';
 
-	for (c = 'a'; c <= 'z'; c++)
+	while (letters <= 'z')
 	{
-		_putchar(c);
+		_putchar(letters);
+		letters++;
 	}
 	_putchar('\n');
 }
