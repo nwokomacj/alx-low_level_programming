@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * argstortr - concatenates all arguments of the program
+ * argstostr - concatenates all arguments of the program
  * @ac: argument count
  * @av: pointer to array of size ac
  * Return: NULL if ac == 0 or av == null, pointer to new string
