@@ -41,7 +41,7 @@ int op_mul(int a, int b)
 /**
  * op_div - divides two numbers
  * @a: the first number
- * @b: thw seconf number
+ * @b: the second number
  *
  * Return: the result for non-zero integer division
  * otherwise nothing
@@ -59,7 +59,7 @@ int op_div(int a, int b)
 /**
  * op_mod - gets the remainder of two numbers
  * @a: the first number
- * B: the second number
+ * @b: the second number
  *
  * Return: the result for non-zero integer division,
  * otherwise nothing
