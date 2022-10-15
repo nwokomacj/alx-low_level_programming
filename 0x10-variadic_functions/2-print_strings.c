@@ -1,11 +1,11 @@
-#include "variadic_function.h"
+#include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
 
 /**
- * print_string - prints strings, followed by a new line
+ * print_strings - prints strings, followed by a new line
  *
- * @seperator: the delimiter
+ * @separator: the delimiter
  * @n: the number of arguments to print
  *
  * Return: void
@@ -19,7 +19,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_start(strings, n);
 	for (; i < n; i++)
 	{
-		string_string = va_arg(strings, char*);
+		single_string = va_arg(strings, char*);
 		if (!separator)
 		{
 			printf("%s", single_string);
