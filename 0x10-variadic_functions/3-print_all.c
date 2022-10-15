@@ -5,7 +5,7 @@
 /**
  * print_all - prints anything
  * @format: the format to print
- * return: void
+ * Return: void
  */
 void print_all(const char * const format, ...)
 {
