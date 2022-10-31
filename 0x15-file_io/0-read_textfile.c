@@ -2,7 +2,8 @@
 
 /**
  * read_textfile - a function that reads a file and prints to stdout
- * @filename: the letters we want
+ * @filename: a pointer to the file
+ * @letters: the letters we want
  * Return: the actual numbers of letters it read or  if error
  */
 
