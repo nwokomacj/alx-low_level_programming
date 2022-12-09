@@ -17,7 +17,7 @@ size_t print_dlistint(const dlistint_t *h)
 /*find the head of the list*/
 	while (h->prev != NULL)
 		h = h->prev;
-
+/* go through the list now from the head */
 	while(h)
 	{
 		printf("%d\n", h->n);
