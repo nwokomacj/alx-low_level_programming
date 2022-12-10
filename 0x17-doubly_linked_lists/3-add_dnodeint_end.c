@@ -1,8 +1,8 @@
 #include "lists.h"
 
-/*
+/**
  * add_dnodeint_end - adds a new node at the end of a link
- * @h: the head of the link
+ * @head: the head of the link
  * @n: the data
  * Return: the address of the new element or NULL if failed
 */
