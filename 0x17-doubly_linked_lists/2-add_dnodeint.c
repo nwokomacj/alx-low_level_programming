@@ -1,9 +1,9 @@
 #include "lists.h"
 
-/*
+/**
  * add_dnodeint - adds a new node at the beginning of a liked list
  *
- * @h: head of the list
+ * @head: head of the list
  * @n: the data of the node
  * Return: the address of the new element, or NULL if it fails
  *
